@@ -7,11 +7,13 @@
 ```
 
 **Write a task to update and upgrade apt packages**
+```
 - name: "update and upgrade apt packages."
   become: yes
   apt:
     upgrade: yes
     update_cache: yes
+```
 
 **PlayBooks**
 **Write a playbook that will: a. Install the package zlib b. Create the file /tmp/some_file**
