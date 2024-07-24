@@ -68,7 +68,8 @@ product:
 ```
 **YAML Anchors and Aliases**
 person_defaults is defined with &person_defaults, marking it as an anchor.
-person1 and person2 use <<: *person_defaults to inherit name, age, and occupation from person_defaults. They override name, age, and occupation with specific values.
+person1 and person2 use <<: *person_defaults to inherit name, age, and occupation from person_defaults. 
+They override name, age, and occupation with specific values.
 
 **Multi-line Strings**
 product.description is defined with | to preserve newlines and formatting.
