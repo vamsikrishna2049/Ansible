@@ -1,8 +1,10 @@
 **Write a task to create the directory ‘/tmp/new_directory’**
+'''
 - name: Create a new directory
   file:
     path: "/tmp/new_directory"
     state: directory
+'''
 
 **Write a task to update and upgrade apt packages**
 - name: "update and upgrade apt packages."
