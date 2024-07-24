@@ -16,7 +16,9 @@
 ```
 
 **PlayBooks**
-**Write a playbook that will: a. Install the package zlib b. Create the file /tmp/some_file**
+**Write a playbook that will: 
+a. Install the package zlib 
+b. Create the file /tmp/some_file**
 
 **vi first_playbook.yml**
 
