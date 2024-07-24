@@ -1,0 +1,21 @@
+What is Ansible and Architecture? Before Ansible? Importance
+Adhoc Commands
+Ansible Inventories
+Ansible Custom Inventory
+Ansible Host Selection
+Creating Yml files
+Creating the Playbooks
+Create user and groups
+Working with variables
+Ansbile Inclusion
+Ansible Jinaj2 templates
+Ansilbe playbook and modules
+Looping using items
+Ansible asynchronous and parallel
+Task Delegation
+Magic Variable
+Ansible Vault
+Ansible Import
+Ansible Tags
+Error Handling
+Ansible Roles
