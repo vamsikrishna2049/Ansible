@@ -1,0 +1,24 @@
+ansible -i inventory all -m "shell" -a "touch devopsclass"	-> Created an empty file named devopsclass in home location in all inventory machines
+ansible-playbooks -i inventory firstplaybook.yml		-> It will run the playbooks in slave machines. make sure these 2 files inventory and playbook must be in current location.
+
+
+ansible-playbooks -v -i inventory firstplaybook.yml		-> It will show you, how playbooks are running(Internal processing)
+
+-v 	flag enables verbose mode, which provides more detailed output about the playbook execution. 
+Gathering the Facts 	-> check the slave machine IP Addresses
+Task Execution
+Play Recap		-> status
+Troubleshooting
+
+-vv 	extra verbosity can be extremely useful for debugging and understanding what's happening behind the scenes in your Ansible playbook.
+1. Initial Output
+2. Task Execution Details
+3. Detailed Error Messages
+4. Debug Information
+
+-vvv	most detailed level of output available. This level of verbosity provides extensive debug information and is particularly useful for in-depth troubleshooting and understanding the intricate details of playbook execution.
+1. Connection Details
+2. Task Execution Details
+3. Internal Ansible Processing
+4. Debugging Information
+
